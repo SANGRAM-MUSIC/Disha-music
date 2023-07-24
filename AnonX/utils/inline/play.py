@@ -3,7 +3,6 @@ import math
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
-from config import SUPPORT_GROUP
 from AnonX.utils.formatters import time_to_seconds
 
 
@@ -61,10 +60,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
+        ],
     ]
     return buttons
 
@@ -118,10 +117,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
+        ],
     ]
     return buttons
 
@@ -147,13 +146,10 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
-            ),
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
+        ],
     ]
     return buttons
 
@@ -176,13 +172,10 @@ def telegram_markup(_, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
-            ),
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
+        ],
     ]
     return buttons
 
@@ -223,13 +216,15 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
-            ),
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{config.SUPPORT_GROUP}",
+            ),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
+            ),
+        ]
     ]
     return buttons
 
@@ -248,13 +243,15 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
-            ),
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{config.SUPPORT_GROUP}",
+            ),
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
+            ),
+        ],
     ]
     return buttons
 
@@ -330,12 +327,9 @@ def queue_markup(_, videoid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
-            ),
-            InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
-            )
-        ],
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
+        ],
     ]
     return buttons
