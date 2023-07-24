@@ -62,10 +62,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ❤", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"close"
+                text="🌦close☀️", callback_data=f"close"
             )
         ],
     ]
@@ -122,10 +122,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ❤", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"close"
+                text="🌦close☀️", callback_data=f"close"
             )
         ],
     ]
@@ -154,7 +154,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
                 text="🌦close☀️", callback_data=f"close"
@@ -183,7 +183,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
                 text="🌦close☀️", callback_data=f"close"
@@ -230,7 +230,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
                 text="🌦close☀️", callback_data=f"close"
@@ -255,7 +255,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
                 text="🌦close☀️", callback_data=f"close"
@@ -337,7 +337,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"https://t.me/+3wW9nBXWr5lhYjdl"
             ),
             InlineKeyboardButton(
                 text="🌦close☀️", callback_data=f"close"
