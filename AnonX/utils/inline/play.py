@@ -62,10 +62,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="sᴜᴘᴘᴏʀᴛ❤", url=f"{config.SUPPORT_GROUP}"
             ),
             InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -122,10 +122,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🌸sᴜᴘᴘᴏʀᴛ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="sᴜᴘᴘᴏʀᴛ❤", url=f"{config.SUPPORT_GROUP}"
             ),
             InlineKeyboardButton(
-                text="🌦close☀️", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
